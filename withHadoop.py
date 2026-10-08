@@ -21,5 +21,3 @@ def writePartHive(spark):
     df3 = spark.read.options(header='True', inferSchema='True', delimiter=',').csv("/data/spark/test/zipcodes1.csv")
     df3.write.mode('overwrite').partitionBy('city').saveAsTable('xyz.city_part')
     spark.sql('select * from xyz.city_part limit 2;').show()
-
-def

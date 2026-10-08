@@ -39,4 +39,4 @@ if __name__ == '__main__':
     # readFromHadoop(spark)
     # writeToHadoop(spark)
     # writeHiveTable(spark)
-    writePartHive(spark)
+    # writePartHive(spark)
