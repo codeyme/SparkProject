@@ -24,10 +24,10 @@ if __name__ == '__main__':
     # enforce_schema(spark)
     nested_schema(spark)
 
-    # select,withColumn and filter
-    # select_func(spark)
-    # withColum_func(spark)
-    # filter_func(spark)
+    select,withColumn and filter
+    select_func(spark)
+    withColum_func(spark)
+    filter_func(spark)
     # trans_withColumn(spark)
     # clean(spark)
     # filter()
