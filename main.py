@@ -1,4 +1,5 @@
 from pyspark.sql import SparkSession
+from pyspark.sql.function import col
 from bookDataAnalysis import *
 
 # Press the green button in the gutter to run the script.
