@@ -31,8 +31,7 @@ Why Use MongoDB ?
     - to    improve    latency
 Data Modeling - what is data modeling ?
 
-Joins is called
-embedding in NoSQL 1
+Joins is called embedding in NoSQL 1
 document - 16 mb max size
 
 Sql
